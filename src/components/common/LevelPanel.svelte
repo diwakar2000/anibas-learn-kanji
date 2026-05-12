@@ -5,6 +5,7 @@
   export let selectedLevelId = '';
   export let progressByLevel = {};
   export let storyCountsByLevel = {};
+  export let showStoryCounts = true;
   export let onSelectLevel = () => {};
 </script>
 
@@ -31,7 +32,9 @@
           <small>{level.tone}</small>
         </span>
         <b>{progress?.completedKanji?.length || 0}</b>
-        <em>{storyCountsByLevel[level.id] || 0} stories</em>
+        {#if showStoryCounts}
+          <em>{storyCountsByLevel[level.id] || 0} stories</em>
+        {/if}
       </button>
     {/each}
   </div>

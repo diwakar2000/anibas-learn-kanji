@@ -7,7 +7,7 @@
     storyLengthLabel,
     storyText,
     wordId
-  } from '../lib/storyUtils.js';
+  } from '../../lib/storyUtils.js';
 
   export let selectedLevel;
   export let selectedStory;

@@ -1,6 +1,6 @@
 <script>
   import { BookOpen, ChevronRight, Volume2 } from 'lucide-svelte';
-  import { exampleText, hasKanji, storyLengthLabel, storyText } from '../lib/storyUtils.js';
+  import { exampleText, hasKanji, storyLengthLabel, storyText } from '../../lib/storyUtils.js';
 
   export let selectedLevel;
   export let selectedStory;

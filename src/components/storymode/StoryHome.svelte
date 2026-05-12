@@ -1,7 +1,7 @@
 <script>
   import { BookOpen } from 'lucide-svelte';
-  import { STORY_LENGTHS } from '../data/levels.js';
-  import { storyLengthCategory, storyLengthLabel, storyStatus, vocabularyForStory } from '../lib/storyUtils.js';
+  import { STORY_LENGTHS } from '../../data/levels.js';
+  import { storyLengthCategory, storyLengthLabel, storyStatus, vocabularyForStory } from '../../lib/storyUtils.js';
 
   export let selectedLevel;
   export let levelStories = [];
