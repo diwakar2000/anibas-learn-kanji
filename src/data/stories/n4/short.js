@@ -1,3 +1,5 @@
+import { plain, word } from '../storyFactory.js';
+
 export default [
   {
     "id": "n4-library-rain",
@@ -2827,6 +2829,41 @@ export default [
         "text": "。",
         "studyWord": false
       }
+    ]
+  },
+  {
+    id: 'n4-short-lost-umbrella',
+    jlptLevel: 'jlpt-4',
+    title: 'Lost Umbrella',
+    summary: 'A small station kindness story about helping a girl find her mother.',
+    tokens: [
+      word('夕方', 'ゆうがた', 'evening'),
+      plain('、'),
+      word('駅', 'えき', 'station'),
+      plain('の'),
+      word('前', 'まえ', 'front; before'),
+      plain('で'),
+      word('小さい', 'ちいさい', 'small'),
+      word('かばん', 'かばん', 'bag'),
+      plain('を'),
+      word('探している', 'さがしている', 'looking for'),
+      word('女の子', 'おんなのこ', 'girl'),
+      plain('を'),
+      word('見ました', 'みました', 'saw'),
+      plain('。'),
+      word('私', 'わたし', 'I; me'),
+      plain('は'),
+      word('駅員', 'えきいん', 'station staff'),
+      plain('に'),
+      word('知らせ', 'しらせ', 'informed'),
+      plain('、'),
+      word('女の子', 'おんなのこ', 'girl'),
+      plain('は'),
+      word('母', 'はは', 'mother'),
+      plain('に'),
+      word('会えて', 'あえて', 'could meet'),
+      word('安心しました', 'あんしんしました', 'felt relieved'),
+      plain('。')
     ]
   }
 ];
